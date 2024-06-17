@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blue Moon Restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        html{
+          scroll-behavior: smooth;
+        }
+        body {
+          
+            margin: 0;
+            padding: 0;
+            height: 50%;
+            background-blend-mode: darken;
+            
+        }
+          
+           
+        
+
+        /* nav css */
+
+        nav ul li {
+            margin: 0 50px;
+            
+            
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            
+            
+            z-index: 1000;
+            transition: background-color 0.9s ease;
+            margin-top: 30px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: right;
+            
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        /* video css */
+
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            
+           
+            
+            
+            
+        }
+        
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            z-index: -1000;
+            background-size: auto;
+            object-fit: contain;
+            
+            
+            
+            
+            
+            
+        }
+
+       
+
+       
+        
+    
+
+      
+   
+     
+        
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+      
+        button{
+          padding: 15px 32px;
+          text-align: center;
+          font-size: large;
+          cursor: pointer;
+          box-shadow: 5px 8px 5px gray;
+          margin-left: 600px;
+          margin-top: 200px;
+          width: 300px;
+          height: 50px;
+          color: white;
+          background-color: black;
+          border-radius: 10px;
+        }
+
+        
+        /* first letter   */
+
+        .main-letter{
+          color: rgb(225, 89, 10);
+        }
+
+
+       
+
+        
+        h2{
+          text-align: center;
+          color: white;
+          font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        
+        
+          <ul>
+            <li>
+              <a href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+              <a href="menu.html">MENU</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<!-- video background -->
+
+      <div class="video-container">
+        <video autoplay muted loop>
+            <source src="bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+  
+
+ 
+    
+        <h1 style="text-align: center;color: rgb(243, 246, 246); font-family: Jokerman;margin-top: 50px; letter-spacing: 0.2em;" class="display-3 headline-primary"><span class="main-letter">B</span>LUE MOON</h1>
+        
+        
+
+
+        
+        <h2>A Taste of Health in Every Bite.</h2>
+        
+        
+    
+    <a href="book.html"><button>Book a table</button></a><br><br><br><br><br><br><br><br>
+    <marquee behavior="scroll" direction="right" style="color: rgb(225, 89, 10); font-family: Arial Black;font-size: 20px;">OPEN FROM 5 PM TO 10 PM</marquee>
+    
+
+    <!-- Menu code -->
+
+
+
+ 
+
+    <footer>
+        <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Blue Moon™ Ltd. All rights reserved.</p>
+        <p></p>
+    </footer>
+
+</body>
+</html>
